@@ -1,0 +1,13 @@
+{
+  "id": "linear",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "apiKey": { "type": "string" }
+    },
+    "required": ["apiKey"]
+  },
+  "uiHints": {
+    "apiKey": { "label": "Linear API Key", "sensitive": true }
+  }
+}
